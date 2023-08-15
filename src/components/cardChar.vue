@@ -22,7 +22,7 @@
 </template>
 <style scoped>
     .card {
-        background-color: rgb(217, 217, 16);
+        background-color: var(--color-2);
         width: 35%;
         margin: 5px;
         padding: 10px;
@@ -49,12 +49,12 @@
     .card a{
         color: #000;
         text-decoration: none;
-        background-color: rgb(255, 170, 0);
+        background-color: var(--color-4);
         padding: 7px;
         border-radius: 10px;
         
     }
     .card a:hover{
-        background-color: rgb(255, 221, 127);
+        background-color: var(--color-5);
     }
 </style>
