@@ -1,10 +1,10 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
-  --color-1: #2a0308;
-  --color-2: #924f1b ;
-  --color-3: #e2ac3f ;
-  --color-4: #f8ebbe ;
-  --color-5: #7ba58d ;
+  --color-1: #ffe7bf;
+  --color-2: #ffc978 ;
+  --color-3: #c9c987 ;
+  --color-4: #d1a664 ;
+  --color-5: #c27b57 ;
 }
 
 /* semantic color variables for this project */

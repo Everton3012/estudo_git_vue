@@ -3,17 +3,18 @@
 <template>
     <div class="card">
         <div class="tittle">
-            <div class="photochar"></div>
+            <img class="photochar" src="" alt="imagem do usuario">
             <h1 class="nickName">XdougD</h1>
         </div>
         <div class="description">
             <h2 class="guildName">*dinamos*</h2>
             <div class="stacks">
                 <h3>abilidades:</h3>
-                <ul>
-                    <li><p>react</p></li>
-                    <li><p>vue</p></li>
-                </ul>
+                <p>
+                    <span>vue </span>
+                    <span>react</span>
+                </p>
+                
             </div>
             <h4 class="ranking"></h4>
         </div>
@@ -22,26 +23,29 @@
 </template>
 <style scoped>
     .card {
-        background-color: var(--color-2);
+        background: linear-gradient( to bottom right ,var(--color-1) 33%, var(--color-2) 66%, var(--color-3) 90%);
         width: 35%;
         margin: 5px;
-        padding: 10px;
-        max-width: 520px;
+        padding: 15px 5px;
+        max-width: 320px;
         border-radius: 15px;
+        text-align: center;
+        min-width: 250px;
     }
     .tittle {
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
     }
     .photochar{
-        background-color: red;
-        border-radius: 50%;
-        padding: 50px;
+        background-color: var(--color-5);
+        border-radius: 10%;
+        padding: 80px;
+        width: 80%;
     }
     .description{
-        margin: 15px;
+        margin: 5px;
     }
     .description h2{
         font-style: italic;
@@ -56,5 +60,6 @@
     }
     .card a:hover{
         background-color: var(--color-5);
+        background: linear-gradient(#ccc 30%, var(--color-2) 60%, var(--color-3) 90%);
     }
 </style>
